@@ -1,0 +1,28 @@
+
+.layout{
+    padding: 30px;
+}
+
+.page-list {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list__item a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.list__item a.active {
+    color: red;
+}
