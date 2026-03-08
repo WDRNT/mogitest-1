@@ -55,4 +55,4 @@ stripe listen --forward-to localhost/webhook
 
 ## ER図
 
-![ER図](src/er.png)
+![ER図](src/ER.png)
