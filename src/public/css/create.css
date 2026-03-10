@@ -1,0 +1,123 @@
+.layout {
+    width: 680px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    color: #5F5F5F;
+    border-bottom: 1px solid #5F5F5F;
+    padding-bottom: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.content-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-text input {
+    width: 100%;
+    height: 59px;
+    border: solid 1px #5F5F5F;
+    margin-bottom: 20px;
+}
+
+.content-select{
+    width: 100%;
+    height: 59px;
+}
+
+.content-textarea{
+    width: 100%;
+    height: 125px;
+}
+
+.create {
+    width: 100%;
+    height: 65px;
+    background-color: #FF5555;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.category-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.category-list label {
+    margin-right: 20px;
+}
+
+.category-list label input {
+    display: none;
+}
+
+.category-list label span {
+    color: red;
+    font-size: 14px;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px 20px;
+    white-space: nowrap;
+}
+
+.category-list label input:checked+span {
+    color: #FFF;
+    background: #FBB;
+    border: 1px solid #FBB;
+}
+
+.image-upload {
+    width: 100%;
+    height: 150px;
+    border: 1px dashed #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+.price-input{
+    position: relative;
+    width: 100%;
+}
+
+.price-input input{
+    width: 100%;
+    height: 59px;
+    border: solid 1px #5F5F5F;
+    padding-left: 30px;
+}
+
+.yen {
+    font-size: 24px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
